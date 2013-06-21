@@ -1,3 +1,14 @@
+body {
+    font-family: "Ubuntu", sans-serif !important;
+}
+
+.destaque-text p {
+    font-size: 2em;
+    line-height: 1.2em;
+    color: #504f4f;
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,.5)), to(rgba(0,0,0,1)));
+}
+
 header.header {
     background: #39d680; /* Old browsers */
     background: -moz-linear-gradient(top, #39d680 0%, #299a0b 100%); /* FF3.6+ */
